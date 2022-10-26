@@ -1,0 +1,275 @@
+# Life-Handle-Moderno
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE HANDLE</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description"
+        content="Hola, Solo es un demo de Life Handle.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://JuanPVillegas.github.io">
+    <meta property="og:title" content="Life Handle">
+    <meta property="og:description"
+        content="Hola, Solo es un demo de Life Handle.">
+    <meta property="og:image" content="https://JuanPVillegas.github.io/images/css.jpg">
+
+    </head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Life Handle</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+               
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">La mejor opción a la emergencia medica</h1>
+            <p class="hero__paragraph">El desarrollo innovador a la emergencia medica</p>
+            <a href="#" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Qué saldra en el Qr?</h2>
+            <p class="about__paragraph">Toda la información del paciente en especifico, con solo escanear el codigo qr</p>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">¡Life Handle a la mano!</h2>
+                    <p class="knowledge__paragraph">Deja de perder el tiempo averiguando por otro sitio la identificación de la persona que lo requiera, ya llego la solucion a la emergencia.</p>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/medical.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Obten las versiones</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Flex</p>
+                    <h3 class="price__price">Free</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Flexbox</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Muy Pronto</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Full</p>
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Full</p>
+                        <p class="price__features">All Medical</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Muy Pronto</a>
+                </div>
+              
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Juan Pablo Bermúdez V, <span class="testimony__course">Estudiante
+                                de Ingenieria en Sistemas.</span></h2>
+                        <p class="testimony__review">Integrante del equipo innivador Life Handle, en busca de nuevas soluciónes medicas.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/juan.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alejandro Hernandez, <span class="testimony__course">estudiante de
+                                Ingenieria en Energias</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
+                            voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Gersain Gómez, <span class="testimony__course">estudiante de
+                                Ingenieria Industrial</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Juan Manuel Mina, <span class="testimony__course">estudiante de
+                                Ingenieria Industrial.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/juan david.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="5">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Christian Camilo Espinosa, <span class="testimony__course">estudiante de 
+                            Ingenieria Industrial.</span></h2>
+                        <p class="testimony__review">lsfdsdisjdjfnsdfsdlfksdfsjidfosdkjfslkdlksd. hsdbisfd 
+                            hsbdkfjsdfkjnsdfkjnalksjdlksdflksdfjsdkjffsdfkdfjsdfjkñl</p>      
+                    </div>
+
+                
+
+                <figure class="testimony__picture">
+                    <img src="./images/christian.jpeg" class="testimony__img">
+                </figure>
+            </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué es Life Handle?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Life Handle es una herramienta la cual esta en funcion del cumplimiento de la necediad de la persona que lo requiera, 
+                            dando un acierto en la información personal del usuario que lo requiera con urgencia
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué se aprenderá con esta herramienta?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Se busca que la ciudadania, utilice de forma segura y eficaz la emergencia que
+                            requiera la identificación del usuario a quien lo necesite
+                        </p>
+                    </div>
+                </article>
+
+                 </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">Espero que te haya servido</h2>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Life Handle</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete a Life Handle</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Equipo Life handle</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
